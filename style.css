@@ -51,8 +51,23 @@ body {
     }
 }
 
+@media only screen and (max-width: 360px) {
+    .jumbotron h1 {
+        font-size: 2.5em;
+    }
+
+    .jumbotron p {
+        font-size: 1.2em;
+    }
+
+    .slider-image {
+        width: 260px !important;
+        height: 180px !important;
+    }
+}
+
 .card:hover {
-    transform: translate(50px,0px);
+    transform: translate(15px,0px);
 }
 
 .sapi-list {
