@@ -13,6 +13,44 @@ body {
     height: 758px;
 }
 
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .jumbotron p {
+        font-size: 2em;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+ @media only screen and (max-width: 992px) {
+    .jumbotron h1 {
+        font-size: 3em;
+    }
+
+    .jumbotron p {
+        font-size: 2.1em;
+    }
+
+    .slider-image {
+        width: 690px !important;
+        height: 310px !important;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    .jumbotron h1 {
+        font-size: 3em;
+    }
+
+    .jumbotron p {
+        font-size: 1.5em;
+    }
+
+    .slider-image {
+        width: 340px !important;
+        height: 210px !important;
+    }
+}
+
 .card:hover {
     transform: translate(50px,0px);
 }
